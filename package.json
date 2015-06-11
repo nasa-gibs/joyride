@@ -1,8 +1,8 @@
 {
-  "name": "joyride",
+  "name": "jquery.joyride",
   "version": "2.1.1",
-  "description": "jQuery feature tour plugin.",
-  "main": "jquery.joyride-2.1.js",
+  "description": "jQuery feature tour plugin. npm and commonJS compatible. Forked from zurb/joyride",
+  "main": "jquery.joyride.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/chmanie/joyride.git"
   },
-  "author": "zurb",
+  "author": "Christian Maniewski <chmanie@fastmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/chmanie/joyride/issues"
