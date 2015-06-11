@@ -1,0 +1,19 @@
+{
+  "name": "joyride",
+  "version": "2.1.0",
+  "description": "jQuery feature tour plugin.",
+  "main": "jquery.joyride-2.1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chmanie/joyride.git"
+  },
+  "author": "zurb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chmanie/joyride/issues"
+  },
+  "homepage": "https://github.com/chmanie/joyride#readme"
+}
