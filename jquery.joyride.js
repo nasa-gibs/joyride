@@ -1,5 +1,5 @@
   /*
- * jQuery Foundation Joyride Plugin 2.1
+ * jQuery Foundation Joyride Plugin 2.2
  * http://foundation.zurb.com
  * Copyright 2013, ZURB
  * Free to use under the MIT license.
@@ -8,7 +8,18 @@
 
 /*jslint unparam: true, browser: true, indent: 2 */
 
-;(function ($, window, undefined) {
+(function (factory) {
+  if (typeof define === 'function' && define.amd) {
+    // AMD
+    define(['jquery'], factory);
+  } else if (typeof exports === 'object') {
+    // CommonJS
+    factory(require('jquery'));
+  } else {
+    // Browser globals
+    factory(jQuery);
+  }
+}(function ($) {
   'use strict';
 
   var defaults = {
@@ -925,4 +936,4 @@
     }
   };
 
-}(jQuery, this));
+}));
