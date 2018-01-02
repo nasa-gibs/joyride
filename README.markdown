@@ -1,5 +1,7 @@
-Welcome to Joyride
+Joyride - Fork
 =====================
+
+**NOTE:** This fork contains changes to Joyride used by [Worldview](https://github.com/nasa-gibs/worldview). These changes are specific to the application; this includes custom changes and fixes from [chmanie/joyride](https://github.com/chmanie/joyride) and [natelowry/joyride](https://github.com/natelowry/joyride). Please consider using the latest version of the plugin from [zurb/joyride](https://github.com/zurb/joyride), or the forks listed above.
 
 Joyride is an easy to configure jQuery site tour wizard.
 
